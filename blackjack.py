@@ -22,7 +22,7 @@ dealer_card = [deck.pop(),deck.pop()]
 
 #simulate move here (for now implement human choices)
 def make_move():
-   return input("1 to play, 2 to stop")
+   return input("1 to play, 2 to stop\n")
 
 reward = 0
 #play the game
